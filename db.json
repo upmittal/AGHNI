@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "members": [
+    {
+      "id": 1,
+      "UID": "ec7c4edf-d70a-4ce8-b075-f7638b84b579",
+      "name": "alok Gupta",
+      "email": "alogupta@deloitte.com",
+      "phone": "01",
+      "joinAghni": true
+    },
+    {
+      "id": 2,
+      "UID": "2f6fd5ed-ec42-4691-85aa-e8f8542ca42f",
+      "name": "Ujjwal ",
+      "email": "ujj@ujj.com",
+      "phone": 0,
+      "joinAghni": true
+    }
+  ]
+}
