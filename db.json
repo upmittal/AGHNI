@@ -32,6 +32,38 @@
       "email": "ujj@ujj.com",
       "phone": 0,
       "joinAghni": true
+    },
+    {
+      "id": 3,
+      "UID": "a4a137ea-3e24-44e9-b24d-96f68829b196",
+      "name": "first ",
+      "email": "res@res.com",
+      "phone": "0000000000",
+      "joinAghni": true
+    },
+    {
+      "id": 4,
+      "UID": "2e414f3f-601b-4a1d-9eb9-75c5d539f21d",
+      "name": "ujjwal",
+      "email": "upmittal@gmail.com",
+      "phone": "7172549558",
+      "joinAghni": true
+    },
+    {
+      "id": 5,
+      "UID": "7e72f382-dbf8-41fd-837a-febc070a036c",
+      "name": "Alok Gupta",
+      "email": "alogupta@deloitte.com",
+      "phone": "7777777777",
+      "joinAghni": false
+    },
+    {
+      "id": 6,
+      "UID": "c80b284c-6c6d-452c-b5c1-327c03c71d91",
+      "name": "Alok Gupta",
+      "email": "mr.alok.gupta@gmail.com",
+      "phone": "7173008899",
+      "joinAghni": true
     }
   ]
 }

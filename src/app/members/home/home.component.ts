@@ -13,6 +13,10 @@ declare var window: any;
 export class HomeComponent implements OnInit {
   deleteModal: any;
   idTodelete: number = 0;
+  
+  title = 'app';
+  elementType = 'url';
+  value = 'Techiediaries';
 
 allMembers: Members[] = [];
 

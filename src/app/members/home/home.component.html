@@ -11,7 +11,9 @@
         <th scope="col">Name</th>
         <th scope="col">Email</th>
         <th scope="col">Phone</th>
-        <th scope="col">Join</th>
+        <th scope="col">Child</th>
+
+        <th scope="col">QR</th>
         <th scope="col">Action</th>
       </tr>
     </thead>
@@ -22,6 +24,11 @@
         <td>{{ item.email }}</td>
         <td>{{ item.phone }}</td>
         <td>{{ item.joinAghni }}</td>
+        <td><ngx-qrcode
+          [value]=item.UID
+          cssClass="aclass">
+        </ngx-qrcode>
+      </td>
         <td>
           <a class="btn btn-primary" [routerLink]="['/members/edit', item.id]">Edit</a> |
           <button type="button" (click)="openDeleteModal(item.id)" class="btn btn-danger">Delete</button>

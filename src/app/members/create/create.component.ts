@@ -28,7 +28,8 @@ export class CreateComponent implements OnInit {
     this.memberService.create(this.fruitForm)
     .subscribe({
       next:(data) => {
-        this.router.navigate(["/members/home"])
+       // this.router.navigate(["/members/home"])
+       this.router.navigate(["/members/confirmation", data.id])
       },
       error:(err) => {
         console.log(err);
